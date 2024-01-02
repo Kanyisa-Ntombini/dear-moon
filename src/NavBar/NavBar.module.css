@@ -1,0 +1,23 @@
+nav {
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin: 0 auto;
+}
+
+nav a {
+  text-decoration: none;
+  color: #b12842;
+  font-weight: 600;
+  font-size: 1.125rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: grey;
+}
+
+nav li {
+  list-style: none;
+}
