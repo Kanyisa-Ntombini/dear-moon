@@ -1,27 +1,27 @@
-article {
+.About article {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
   margin: 1rem 0;
 }
 
-p {
+.About p {
   text-align: justify;
 }
 
-img {
+.About img {
   width: 75%;
   border-radius: 50%;
   border: 0.15rem solid #b12842;
 }
 
-h2 {
+.About h2 {
   text-align: center;
   color: #b12842;
   margin-bottom: 1rem;
 }
 
-figure {
+.About figure {
   display: flex;
   justify-content: center;
   align-items: center;

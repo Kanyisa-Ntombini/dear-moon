@@ -4,7 +4,7 @@ import profilePic from './professional-pic.v2.jpg';
 
 function AboutPage() {
   return (
-    <section>
+    <section className={styles.About}>
       <article id="about">
         <figure>
           <img
