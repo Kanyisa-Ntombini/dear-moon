@@ -1,7 +1,7 @@
 import React from 'react';
 import './reset.css';
 import styles from './App.module.css';
-import NavBar from '../NavBar/NavBar';
+import Header from '../Header/Header';
 import AboutPage from '../AboutPage/AboutPage';
 import BlogArticles from '../BlogArticles/BlogArticles';
 import ContactMe from '../ContactMe/ContactMe';
@@ -9,10 +9,7 @@ import ContactMe from '../ContactMe/ContactMe';
 function App() {
   return (
     <div className={styles.App}>
-      <header>
-        <h1>Dear Moon</h1>
-        <NavBar />
-      </header>
+      <Header />
       <main>
         <AboutPage />
         <BlogArticles />

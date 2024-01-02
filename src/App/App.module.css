@@ -2,13 +2,8 @@
   box-sizing: border-box;
 }
 
-h1 {
-  font-size: 2.5rem;
-  font-weight: 700;
-}
-
 h2 {
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: 600;
 }
 
@@ -48,23 +43,6 @@ a {
   background-color: white;
 }
 
-/* HEADER */
-header {
-  min-height: 9.625rem;
-
-  /* Background image for header */
-  background-image: url('flowers.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-header h1 {
-  color: #b12842;
-  padding: 2rem 0;
-  text-align: center;
-}
-
 /* MAIN */
 main {
   margin: 0 1rem;
@@ -77,3 +55,13 @@ footer {
   text-align: center;
   margin: 1rem 0;
 }
+
+/* Tablet styling min-width 768px and max-width 1023px*/
+@media screen and (min-width: 48rem) {
+  h2 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+}
+
+/* @media screen and (min-width: 48rem) and (max-width: 63rem) {} */
