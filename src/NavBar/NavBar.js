@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './NavBar.module.css';
+import './NavBar.css';
 
 function NavBar() {
   const pages = ['home', 'about', 'blog', 'contact'];
