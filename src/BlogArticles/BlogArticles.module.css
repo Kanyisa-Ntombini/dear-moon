@@ -1,0 +1,19 @@
+.DisabilityParenting h2 {
+  color: #b12842;
+  text-align: center;
+}
+
+.DisabilityParenting p {
+  text-align: justify;
+  margin: 1rem 0;
+}
+
+.DisabilityParenting figure {
+  width: 50%;
+  margin: 1rem auto;
+}
+
+.DisabilityParenting figcaption {
+  margin-top: 1rem;
+  text-align: center;
+}
