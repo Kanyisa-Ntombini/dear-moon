@@ -1,7 +1,4 @@
 .About article {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 2rem;
   margin: 1rem 0;
 }
 
@@ -18,11 +15,24 @@
 .About h2 {
   text-align: center;
   color: #b12842;
-  margin-bottom: 1rem;
+  margin: 1rem 0;
 }
 
 .About figure {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (min-width: 25.875rem) {
+  .About article {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    margin: 1rem 0;
+  }
+
+  .About h2 {
+    margin-bottom: 1rem;
+  }
 }

@@ -1,0 +1,125 @@
+.Mobile {
+  display: block;
+}
+
+.Desktop {
+  display: none;
+}
+
+.Header {
+  min-height: 5.5rem;
+
+  /* Background image for header */
+  background-image: url('flowers.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Header h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 2rem 0;
+  text-align: center;
+  color: #b12842;
+}
+
+.Header a {
+  text-decoration: none;
+}
+
+.Header a:hover {
+  text-decoration: underline;
+}
+
+.Header li {
+  list-style: none;
+}
+
+.SideNav {
+  height: 100%;
+  background-color: black;
+  position: fixed;
+  width: 0;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding: 1rem 0;
+  transition: 0.5s;
+  opacity: 0.8;
+}
+
+.SideNav a {
+  color: white;
+  font-weight: 700;
+  display: block;
+  transition: 0.3s;
+  padding: 0.5rem 0.5rem 0.5rem 1.5rem;
+  font-size: 1rem;
+}
+
+.SideNav a:hover {
+  color: #b12842;
+}
+
+.HamburgerIcon {
+  color: #b12842;
+  font-weight: 900;
+  cursor: pointer;
+  font-size: 2.5rem;
+  margin: 1.5rem 1rem;
+  position: fixed;
+  top: 0;
+  width: 1.75rem;
+}
+
+.CrossIcon {
+  position: relative;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 85%;
+  color: white;
+  width: 100%;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 25.875rem) {
+  .Mobile {
+    display: none;
+  }
+
+  .Desktop {
+    display: block;
+  }
+
+  .Desktop h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+
+  .Desktop nav {
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .Desktop nav a {
+    text-decoration: none;
+    color: #b12842;
+    font-weight: 600;
+    font-size: 1.125rem;
+  }
+
+  .Header a {
+    color: #b12842;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+
+  .Header a:hover {
+    color: grey;
+  }
+}
