@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
+
+* {
+  font-family: 'Lato', Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-size: 1.125rem;
+}
+
+p {
+  font-size: 0.9rem;
+  font-weight: 200;
+  line-height: 1.8;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: #b12842;
+}
+
+/* FOOTER */
+footer {
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 1rem 0;
+}
