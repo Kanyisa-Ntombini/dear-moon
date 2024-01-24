@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './ContactMe.module.css';
+import './ContactMe.module.css';
 
 function submitContact() {
   alert('Contact Sumbitted');
@@ -7,7 +7,7 @@ function submitContact() {
 
 function ContactMe() {
   return (
-    <section className={styles.Contact} id="contact" onSubmit={submitContact}>
+    <section className="Contact" id="contact" onSubmit={submitContact}>
       <h2>Contact Me</h2>
       <form action="#" onSubmit={submitContact}>
         <label for="name">
@@ -35,7 +35,7 @@ function ContactMe() {
           ></textarea>
         </label>
 
-        <input type="submit" value="Submit" className={styles.SubmitButton} />
+        <input type="submit" value="Submit" className="SubmitButton" />
       </form>
     </section>
   );

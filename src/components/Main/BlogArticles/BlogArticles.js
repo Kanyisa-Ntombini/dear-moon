@@ -1,10 +1,10 @@
 import React from 'react';
-import styles from './BlogArticles.module.css';
+import './BlogArticles.css';
 import momAndBabyPic from './mom-baby.jpg';
 
 function DisabilityParenting() {
   return (
-    <article className={styles.DisabilityParenting}>
+    <article className="DisabilityParenting">
       <h2>Disability and Parenting</h2>
 
       <figure>

@@ -1,10 +1,10 @@
 import React from 'react';
-import styles from './AboutPage.module.css';
+import './AboutPage.css';
 import profilePic from './professional-pic.v2.jpg';
 
 function AboutPage() {
   return (
-    <section className={styles.About}>
+    <section className="About">
       <article id="about">
         <figure>
           <img
