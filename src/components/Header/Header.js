@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from './Header.module.css';
+import './Header.css';
 
-function Mobile() {
+const Mobile = () => {
   const openNav = () => {
     document.getElementById('SideNav').style.width = '100%';
     document.getElementById('hamburgerIcon').style.display = 'none';
@@ -23,26 +23,22 @@ function Mobile() {
   });
 
   return (
-    <div className={styles.Mobile}>
+    <div className="Mobile">
       <h1>Dear Moon</h1>
-      <nav className={styles.SideNav} id="SideNav">
-        <div
-          onClick={openNav}
-          className={styles.HamburgerIcon}
-          id="hamburgerIcon"
-        >
+      <nav className="SideNav" id="SideNav">
+        <div onClick={openNav} className="HamburgerIcon" id="hamburgerIcon">
           &#8801;
         </div>
-        <div onClick={closeNav} className={styles.CrossIcon} id="crossIcon">
+        <div onClick={closeNav} className="CrossIcon" id="crossIcon">
           &times;
         </div>
         {navLinks}
       </nav>
     </div>
   );
-}
+};
 
-function Desktop() {
+const Desktop = () => {
   const pages = ['home', 'about', 'blog', 'contact'];
   const navLinks = pages.map((page) => {
     return (
@@ -53,16 +49,16 @@ function Desktop() {
   });
 
   return (
-    <div className={styles.Desktop}>
+    <div className="Desktop">
       <h1>Dear Moon</h1>
       <nav>{navLinks}</nav>
     </div>
   );
-}
+};
 
 function Header() {
   return (
-    <header className={styles.Header}>
+    <header className="Header">
       <Mobile />
       <Desktop />
     </header>
