@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/dear-moon/static/css/main.503dc695.css",
+    "main.js": "/dear-moon/static/js/main.75afb62b.js",
+    "static/media/flowers.jpg": "/dear-moon/static/media/flowers.41bde2a4a319b702a81f.jpg",
+    "static/media/mom-baby.jpg": "/dear-moon/static/media/mom-baby.48ea3b93d9afca6e1cb9.jpg",
+    "static/media/professional-pic.v2.jpg": "/dear-moon/static/media/professional-pic.v2.352f5912f18523c5bf1b.jpg",
+    "index.html": "/dear-moon/index.html",
+    "main.503dc695.css.map": "/dear-moon/static/css/main.503dc695.css.map",
+    "main.75afb62b.js.map": "/dear-moon/static/js/main.75afb62b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.503dc695.css",
+    "static/js/main.75afb62b.js"
+  ]
+}
